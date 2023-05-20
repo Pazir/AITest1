@@ -1,0 +1,157 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Fody/6.0.5": {},
+      "Google.Protobuf/3.21.9": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.21.9.0",
+            "fileVersion": "3.21.9.0"
+          }
+        }
+      },
+      "MethodBoundaryAspect.Fody/2.0.148": {
+        "dependencies": {
+          "Fody": "6.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MethodBoundaryAspect.dll": {
+            "assemblyVersion": "2.0.148.0",
+            "fileVersion": "2.0.148.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "OneOf/3.0.223": {
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Protobuf.Text/0.7.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.9"
+        },
+        "runtime": {
+          "lib/net6.0/Protobuf.Text.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          }
+        }
+      },
+      "Serilog/2.10.0": {
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.10.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.1.0": {
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
+      },
+      "TensorFlow.NET/0.100.5": {
+        "dependencies": {
+          "MethodBoundaryAspect.Fody": "2.0.148",
+          "Newtonsoft.Json": "13.0.3",
+          "OneOf": "3.0.223",
+          "Protobuf.Text": "0.7.0",
+          "Serilog.Sinks.Console": "4.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/Tensorflow.Binding.dll": {
+            "assemblyVersion": "0.100.5.0",
+            "fileVersion": "0.100.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fody/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xfz4NwIIPs2xtfvpPlXz49cHYPeWBl/bnvlpW6OSpxKFAujAm7vLQ8Ma7aX3GYVjc/czn5+58QNUnDyb4gxiKA==",
+      "path": "fody/6.0.5",
+      "hashPath": "fody.6.0.5.nupkg.sha512"
+    },
+    "Google.Protobuf/3.21.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OTpFujTgkmqMLbg3KT7F/iuKi1rg6s5FCS2M9XcVLDn40zL8wgXm37CY/F6MeOEXKjdcnXGCN/h7oyMkVydVsg==",
+      "path": "google.protobuf/3.21.9",
+      "hashPath": "google.protobuf.3.21.9.nupkg.sha512"
+    },
+    "MethodBoundaryAspect.Fody/2.0.148": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QFZOs5SRehBbRYmuPvdsgr3PhqkoERO9YT0jxW4JzmWIZmk2nlMz4uokz+HiWtK9n+2e0eAZ0pX7om+yMbserw==",
+      "path": "methodboundaryaspect.fody/2.0.148",
+      "hashPath": "methodboundaryaspect.fody.2.0.148.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "OneOf/3.0.223": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YWabiHBFfDdKIO7/TEa72mARVVo5u5FqFnfXuTqjIupMvJlhoH8d0m4uKtczaINuT0vGR1qlXJayeU6bTw5myg==",
+      "path": "oneof/3.0.223",
+      "hashPath": "oneof.3.0.223.nupkg.sha512"
+    },
+    "Protobuf.Text/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JiI/XhrUATfzrB83lZWzUHe08Ou3hTzqoyoFrFLWVwnIthFOe+R2RZWwxEp7N7xet20FUTYTuXNJI2+PF9JYbQ==",
+      "path": "protobuf.text/0.7.0",
+      "hashPath": "protobuf.text.0.7.0.nupkg.sha512"
+    },
+    "Serilog/2.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+      "path": "serilog/2.10.0",
+      "hashPath": "serilog.2.10.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Console/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K6N5q+5fetjnJPvCmkWOpJ/V8IEIoMIB1s86OzBrbxwTyHxdx3pmz4H+8+O/Dc/ftUX12DM1aynx/dDowkwzqg==",
+      "path": "serilog.sinks.console/4.1.0",
+      "hashPath": "serilog.sinks.console.4.1.0.nupkg.sha512"
+    },
+    "TensorFlow.NET/0.100.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eDgDlMNSK6/4479WOZxhaKWcQIKkg9Joh0yG0Prjvdvdd25r0/jPvdqwClQGLq/Wn73XdkCsb7uO1F7wDgR7Sg==",
+      "path": "tensorflow.net/0.100.5",
+      "hashPath": "tensorflow.net.0.100.5.nupkg.sha512"
+    }
+  }
+}
